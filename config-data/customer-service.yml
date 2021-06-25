@@ -31,7 +31,5 @@ resilience4j:
           - java.io.IOException
           - java.net.ConnectException
     instances:
-      findByIdentityServiceCircuitBreaker:
-        baseConfig: default
-      updateCustomerServiceCircuitBreaker:
+      customerServiceCircuitBreaker:
         baseConfig: default
