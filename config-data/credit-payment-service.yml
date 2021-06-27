@@ -21,6 +21,12 @@ eureka:
         service-url:
             defaultZone: http://localhost:8761/eureka
             
+msg:
+    error:
+        registro:
+            notfound: ID DE PAGO NO ENCONTRADO
+            notfound.update: ID DE PAGO NO ENCONTRADO PARA ACTUALIZAR
+            
 resilience4j:
   circuitbreaker:
     configs:
