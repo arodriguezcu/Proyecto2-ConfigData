@@ -21,6 +21,12 @@ eureka:
         service-url:
             defaultZone: http://localhost:8761/eureka
             
+msg:
+    error:
+        registro:
+            notfound: PURCHASE NO IDENTIFICADO
+            notfound.update: PURCHASE NO IDENTIFICADO PARA ACTUALIZAR
+            
 resilience4j:
   circuitbreaker:
     configs:
