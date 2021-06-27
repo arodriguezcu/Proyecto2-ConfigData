@@ -20,6 +20,12 @@ eureka:
     client:
         service-url:
             defaultZone: http://localhost:8761/eureka
+            
+msg:
+    error:
+        registro:
+            notfound: ID DE DEPOSITO NO ENCONTRADO
+            notfound.update: ID DE DEPOSITO NO ENCONTRADO PARA ACTUALIZAR
 
 resilience4j:
   circuitbreaker:
